@@ -1,2 +1,10 @@
 # WordleProject
-This C++ Wordle game challenges players to guess a secret 5-letter word in 6 tries. Feedback for each guess includes: Green for correct letters in the right position, Yellow for correct letters in the wrong position, and Red for incorrect letters. Use the hints to refine guesses and win!
+This project is a C++ implementation of the Wordle game, where players guess a secret 5-letter word within six attempts. Each guess provides feedback:
+
+Green: Correct letter in the correct position.
+Yellow: Correct letter in the wrong position.
+Red: Letter not in the answer.
+Using this feedback, players refine their guesses to either find the word or exhaust all attempts. For example, guessing "LOWER" for the secret word "TOWEL" results in:
+L - Yellow, O - Green, W - Green, E - Green, R - Red.
+
+Enjoy guessing and testing your logic!
